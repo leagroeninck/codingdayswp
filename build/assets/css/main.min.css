@@ -1,3 +1,131 @@
-body {
-  background-color: lightblue;
+body{
+font-family: 'Abel', sans-serif;
+padding-left: 15px;
+background-size: 80%;
+
+}
+
+
+nav{
+	position: fixed;
+	top: 150px;
+	left: 20px;
+}
+
+.sidebar{
+	position: fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	background: #ededed;
+	width: 210px;
+	z-index: 1;
+}
+
+h1{
+	font-size: 30px;
+	position: fixed;
+	z-index: 2;
+}
+
+h2{
+	font-size: 20px;
+	display: inline-block;
+}
+
+ul{
+	font-size: 15px;
+}
+
+img{
+	width: 40%;
+}
+
+
+
+.i1{
+	width: 60%;
+
+}
+
+.i2 {
+    width: 30%;
+    position: absolute;
+    right: 8%;
+    top: 0%;
+}
+
+.i3 {
+
+    width: 30%;
+    top: 52%;
+    right: 8%;
+    position: absolute;
+}
+
+.block__articulation--rel{
+    position: relative;
+    display: block;
+}
+
+.block__articulation{
+	width: 40%;
+	position: absolute;
+	display: inline-block;
+	left: 20%;
+	top: 15%;
+}
+
+.block__prehension{
+	width: 40%;
+	position: absolute;
+	display: inline-block;
+	right: 10%;
+	top: 85%;
+}
+
+.block__prehention--rel{
+    position: relative;
+    display: block;
+}
+
+a:link {
+ text-decoration:none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	background-color: #d9d926;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 18px;
+}
+
+@media (max-width: 1000px){
+	.block__articulation{
+		width: 45%;
+		margin-top: -6%;
+		margin-left:10%;
+	}
+	.block__prehension{
+		width: 45%;
+		top: 70%;
+	}
+}
+
+@media (max-width: 720px){
+	.block__articulation{
+		width: 60%;
+		margin-top: -6%;
+		margin-left:10%;
+	}
+	.block__prehension{
+		width: 60%;
+		top: 70%;
+	}
 }

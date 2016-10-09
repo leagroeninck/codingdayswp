@@ -12,6 +12,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
 	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -22,6 +23,30 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<header class="header">
-		<!-- Vous pouvez mettre ici toutes les infos que vous voulez retrouver dans le header de toutes vos pages  -->
-	</header>
+	<header>
+				<h1><a href="index.html">Léa Groeninck</a></h1>
+		</header>
+
+		<aside class="sidebar">
+			<nav>
+
+
+				<h2>Me connaître</h2>
+				<ul>
+					<li>Me contacter</li>
+				</ul>
+
+				<h2>Mes projets</h2>
+				<ul class="menu1">
+					<li><a href="articulation.html">Articulation</a></li>
+					<li><a href="prehension.html">Préhension</a></li>
+					<li>Construction</li>
+					<li>Division</li>
+					<li>Mécanisation</li>
+					<li>Tension</li>
+					<li>Pigmentation</li>
+					<li>Industrialisation</li>
+				</ul>
+
+				</nav>
+			</aside>
